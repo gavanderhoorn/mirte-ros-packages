@@ -12,6 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
+#define _USE_MATH_DEFINES
 #include "mirte_control/mirte_pioneer_system.hpp"
 
 #include <cctype>
@@ -25,6 +26,8 @@
 
 #include "hardware_interface/types/hardware_interface_type_values.hpp"
 #include "rclcpp/rclcpp.hpp"
+
+typedef unsigned int uint;
 
 namespace mirte_control {
 

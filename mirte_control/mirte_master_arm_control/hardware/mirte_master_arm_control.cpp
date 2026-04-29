@@ -2,7 +2,10 @@
 #include "params.hpp"
 #include <algorithm>
 #include <mirte_master_arm_control.hpp>
-#include <unistd.h>
+// #include <unistd.h>
+
+typedef unsigned int uint;
+
 
 namespace mirte_master_arm_control {
 
